@@ -1,0 +1,262 @@
+h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #e21ea8;
+  margin: 0;
+}
+
+h2 {
+  color: #fff;
+}
+
+h3 {
+  color: #fff;
+}
+.container {
+  width: 98%;
+  margin-right: 26px;
+
+}
+
+.widthCarrosel {
+  width: 100%;
+}
+
+.navbar-default {
+  margin: 0;
+  padding: 10px;
+}
+
+.carousel-inner > .item > a > img,
+.carousel-inner > .item > img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: 300px;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #000000, #1b1b1b);
+}
+
+.navbar-nav {
+  float: left;
+  margin: 0;
+  display: flex;
+  width: 75vw;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0px;
+}
+
+.card {
+  width: 200px;
+  height: 400px;
+  color: #ffffff;
+  font-family: "Helvetica Neue", sans-serif;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px; 
+}
+
+.card:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  background-color: #141414;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    max-width: 100%;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+.card-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.card-content {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover .card-content {
+  opacity: 1;
+}
+
+.bloco {
+  height: 57.5vh;
+  width: 100%;
+  background-color: #00000000;
+  padding: 24px;
+  border-bottom: #000000 2px solid;
+}
+
+.bloco img {
+  width: 50px;
+  height: 50px;
+}
+
+.cardtop {
+  display: flex;
+}
+
+.padding-left {
+  padding-left: 20px;
+}
+
+.title-card {
+  font-size: 4vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #fff;
+}
+
+.line-break {
+  content: "";
+  display: block;
+  margin-top: -0.4em;
+}
+
+
+
+.sinopse{
+    color: #fff;
+    font-size: 14px;
+}
+
+.button-size{
+    width: 144px;
+    height: 38px;
+}
+
+.play{
+    width: 3vh !important; 
+    height: 3vh !important;
+}
+
+
+
+@media screen and (max-width: 600px){
+    .sumirDisplay{
+        display: none;
+    }
+
+    .cardtop{
+        margin-bottom: 20px;
+    }
+
+    .sinopse{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .title-card{
+        margin-bottom: 10px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 2px; 
+      height: 9px;
+      display: none;
+    }
+    
+    ::-webkit-scrollbar-button:start:decrement,
+    ::-webkit-scrollbar-button:end:increment {
+      display: block;
+      display: none;
+
+    }
+    
+    ::-webkit-scrollbar-track {
+      background-color: #f1f1f1; 
+      display: none;
+
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 5px; 
+      display: none;
+
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: #555; 
+      display: none;
+
+    }
+
+    .card{
+      height: 300px;
+    }
+    
+    .sinopse{
+      font-size: 2vh;
+    }
+}
+
+
+::-webkit-scrollbar {
+  width: 2px; 
+  height: 9px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: block;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 5px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; 
+}
